@@ -15,15 +15,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 st.markdown("""
-Made with ❤️ by [Soumya](https://github.com/imsoumya18)\n
-Star ⭐ this repo on [GitHub](https://github.com/imsoumya18/E-commerce_FAQ)
+Made by [Ficky Alkarim - Gaman](https://github.com/fickya1987)\n
 """, unsafe_allow_html=True)
-st.title("E-commerce FAQ 🛒")
+st.title("Gaman E-commerce Asking Forum 🛒")
 
 st.markdown("""
 The model is just for **demonstration purpose only**. It is trained using **only 80 Question - Answer pairs**.
 So, expecting it to answer any question other then used for training with high accuracy is not a good idea.
-You can [have a look at all the 80 questions](https://github.com/imsoumya18/E-commerce_FAQ/blob/main/Ecommerce_FAQs.csv)
+You can [have a look at all the 80 questions](https://github.com/fickya1987/E-commerce_FAQ/blob/main/Ecommerce_FAQs.csv)
 and ask something similar or combined of multiple questions.\n
 e.g. ***"How can I create an account?"*** or,\n
 ***"What payment methods do you accept?"*** or even,\n
