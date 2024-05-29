@@ -12,7 +12,7 @@ from langchain.chains.question_answering import load_qa_chain
 # Set up the model
 load_dotenv()
 generation_config = {
-    "temperature": 0.75,
+    "temperature": 0.9,
 }
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 llm = genai.GenerativeModel(model_name="gemini-pro", generation_config=generation_config)
@@ -36,7 +36,7 @@ def get_response(query):
     retriever = vectordb.as_retriever()
 
     # Prompt template
-    prompt_template = """ Merujuk pada konteks dan pertanyaan yang telah ada, berikan jawaban dari pertanyaan yang ditanyakan. Dalam menjawab pertanyaan, berikan jawaban sesuai dengan kolom bagian "response" tanpa banyak dirubah-rubah narasinya. Apabila tidak tahu, ucapkan saja saya tidak tahu atau silahkan tanya pertanyaan lain.
+    prompt_template = """ Merujuk pada konteks dan pertanyaan yang telah ada, berikan jawaban dari pertanyaan yang ditanyakan. Dalam menjawab pertanyaan, lihat bagian "prompt" dan berikan jawaban sesuai dengan kolom bagian "response" tanpa banyak dirubah-rubah narasinya. Apabila tidak tahu, ucapkan saja saya tidak tahu atau silahkan tanya pertanyaan lain.
 
     CONTEXT: {context}
 
@@ -48,7 +48,7 @@ def get_response(query):
     chain_type_kwargs = {"prompt": PROMPT}
 
     # Chat model and Chain
-    chat = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=os.environ["GOOGLE_API_KEY"], temperature=0.3)
+    chat = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=os.environ["GOOGLE_API_KEY"], temperature=0.9)
     chain = load_qa_chain(chat, chain_type="stuff", prompt=PROMPT)
 
     # Query
