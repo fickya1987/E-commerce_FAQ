@@ -17,22 +17,19 @@ st.markdown("""
 st.markdown("""
 Made by [Ficky Alkarim - Gaman](https://github.com/fickya1987)\n
 """, unsafe_allow_html=True)
-st.title("Gaman E-commerce Asking Forum 🛒")
+st.title("Garuda Mandiri Akses Pasar Bisnis UMKM")
 
 st.markdown("""
-The model is just for **demonstration purpose only**. It is trained using **only 80 Question - Answer pairs**.
-So, expecting it to answer any question other then used for training with high accuracy is not a good idea.
-You can [have a look at all the 80 questions](https://github.com/fickya1987/E-commerce_FAQ/blob/main/Ecommerce_FAQs.csv)
-and ask something similar or combined of multiple questions.\n
-e.g. ***"How can I create an account?"*** or,\n
-***"What payment methods do you accept?"*** or even,\n
-***"How can I create an account and what payment methods do you accept?"*** , etc.
+Bagi para pelaku UMKM, Kami menyediakan fitur Tanya Jawab AI untuk memudahkan Anda dalam mencari data pasar atau market sesuai dengan sektor usaha Anda.
+Anda dapat melihat panduannya pada [Panduan Tanya Jawab GAMAN AI](https://github.com/fickya1987/E-commerce_FAQ/blob/main/Ecommerce_FAQs.csv)
+dan Anda dapat juga bertanya dengan pertanyaan lain yang sesuai dengan template yang diberikan tersebut.\n
+***"Silahkan Bertanya!"*** , etc.
 """, unsafe_allow_html=True)
 
-query = st.text_input("Question: ")
+query = st.text_input("Pertanyaan: ")
 
 if query:
     response = get_response(query)
 
-    st.header("Response: ")
+    st.header("Garuda Mandiri menjawab: ")
     st.write(response)
