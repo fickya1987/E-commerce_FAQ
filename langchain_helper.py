@@ -15,7 +15,7 @@ generation_config = {
     "temperature": 0.9,
 }
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-llm = genai.GenerativeModel(model_name="gemini-pro", generation_config=generation_config)
+llm = genai.GenerativeModel(model_name="gemini-1.5-flash-001", generation_config=generation_config)
 
 # Vector Embedding
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=os.environ["GOOGLE_API_KEY"])
