@@ -1,0 +1,139 @@
+prompt,response
+Hatur Nuhun,Terima Kasih
+Punten ,Permisi
+Naon,Apa
+Kunaon,Kenapa
+Kumaha,Bagaimana
+Iraha,Kapan
+Timana,Dari mana
+Kamana,Ke mana
+Aya naon,Ada apa
+"Kumaha, damang?","Bagaimana,sehat?"
+Aya-aya waé,Ada-ada saja
+Badé kamana?,Mau Ke mana
+Nuju naon,Lagi Ngapain
+Nanaonan ieu,Apa–apaan ini
+Ari eta teh naon,Kalau itu apaan
+Tipayun nya,Duluan ya!
+Ngan kitu hungkul ,Cuma gitu doang
+Sakedap deui,Sebentar lagi
+Karunya teuing ,Kasihan
+Loba kahayang,Banyak maunya
+Rame jigana,Seru kayaknya
+Nu leres,Yang bener?
+Dangukeun,Dengarkan
+"Bade, moal? ","Mau (jadi), tidak?"
+Horéam ah,Males ah
+Tunduh euy,Ngantuk ih
+Hoyong/Hayang,Pengen
+Namina saha?,Namanya siapa?
+Sugan teh saha,Kirain siapa
+Geleuh ih,Jijik ih
+Terang teu?,Tahu tidak?
+Gelo manéh,Gila kamu
+Hareudang euy,Gerah ih
+Kumaha anjeun wéh,Terserah kamu saja
+Angger weh!,Tetep saja!
+Kumaha engké weh,Gimana nanti saja
+Kadieu atuh ,Ke sini dong
+Nya enya atuh,Ya iya dong
+Hilap deui,Lupa lagi
+Kamana deui,Ke mana lagi
+Nuju milarian naon,Lagi nyari apa
+Nuju ngantosan saha,Lagi nunggu siapa
+Sabodo teuing,Bodo amat
+Tong,Jangan
+Tong sok api–api,Jangan suka pura–pura
+"Tong hilap, nya","Jangan lupa, ya"
+Tong ngalamun,Jangan melamun
+Tong ngambek atuh,Jangan marah dong
+Tong kitu atuh,Jangan begitu dong
+Tong hereuy waé atuh,Jangan bercanda terus dong
+Tong asa-asa,Jangan ragu-ragu
+Kaduhung pisan,Nyesel banget
+Bageur pisan,Baik banget
+Geulis pisan,Cantik banget
+Kasép pisan,Ganteng banget
+Lieur ah,Pusing/bingung ah
+Emang kunaon?,Emang kenapa?
+Nuju di mana?,Lagi di mana?
+Buruan atuh,Cepetan dong
+Kumaha anjeun weh,Terserah kamu saja
+Terima Kasih,Hatur Nuhun
+Permisi,Punten 
+Apa,Naon
+Kenapa,Kunaon
+Bagaimana,Kumaha
+Kapan,Iraha
+Dari mana,Timana
+Ke mana,Kamana
+Ada apa,Aya naon
+"Bagaimana,sehat?","Kumaha, damang?"
+Ada-ada saja,Aya-aya waé
+Mau Ke mana,Badé kamana?
+Lagi Ngapain,Nuju naon
+Apa–apaan ini,Nanaonan ieu
+Kalau itu apaan,Ari eta teh naon
+Duluan ya!,Tipayun nya
+Cuma gitu doang,Ngan kitu hungkul 
+Sebentar lagi,Sakedap deui
+Kasihan,Karunya teuing 
+Banyak maunya,Loba kahayang
+Seru kayaknya,Rame jigana
+Yang bener?,Nu leres
+Dengarkan,Dangukeun
+"Mau (jadi), tidak?","Bade, moal? "
+Males ah,Horéam ah
+Ngantuk ih,Tunduh euy
+Pengen,Hoyong/Hayang
+Namanya siapa?,Namina saha?
+Kirain siapa,Sugan teh saha
+Jijik ih,Geleuh ih
+Tahu tidak?,Terang teu?
+Gila kamu,Gelo manéh
+Gerah ih,Hareudang euy
+Terserah kamu saja,Kumaha anjeun wéh
+Tetep saja!,Angger weh!
+Gimana nanti saja,Kumaha engké weh
+Ke sini dong,Kadieu atuh 
+Ya iya dong,Nya enya atuh
+Lupa lagi,Hilap deui
+Ke mana lagi,Kamana deui
+Lagi nyari apa,Nuju milarian naon
+Lagi nunggu siapa,Nuju ngantosan saha
+Bodo amat,Sabodo teuing
+Jangan,Tong
+Jangan suka pura–pura,Tong sok api–api
+"Jangan lupa, ya","Tong hilap, nya"
+Jangan melamun,Tong ngalamun
+Jangan marah dong,Tong ngambek atuh
+Jangan begitu dong,Tong kitu atuh
+Jangan bercanda terus dong,Tong hereuy waé atuh
+Jangan ragu-ragu,Tong asa-asa
+Nyesel banget,Kaduhung pisan
+Baik banget,Bageur pisan
+Cantik banget,Geulis pisan
+Ganteng banget,Kasép pisan
+Pusing/bingung ah,Lieur ah
+Emang kenapa?,Emang kunaon?
+Lagi di mana?,Nuju di mana?
+Cepetan dong,Buruan atuh
+Terserah kamu saja,Kumaha anjeun weh
+"""Sampurasun Ambu, kumaha damang ? ( Sampurasun artinya Salam, Ambu, bagaimana kabarnya sehat)"".
+
+","""Rampes akang, Alhamdulillah damang atth, upami akang kumaha damang? (Rampes artinya jawaban salam, Sehat, kalau akang bagaimana kabarnya)"".
+
+
+
+"
+""" Syukur Alhamdulillah upami damang mah, ai ayeuna Ambu sibuk naon di lembur th ? (Syukur Alhamdulillah kalau baik, kalau sekarang Ambu sibuk apa di kampung)"".
+
+","""Ai Ambu mah sibuk ka sawah, kapanan sahari-hari ogenan ka sawah lamun teu kasawah ek timana Ambu emam. ( Ambu mah sibuk pergi ke sawah, karena kalau tidak ke sawah tidak bisa makan mau dari mana)"". 
+
+"
+Kumaha damang atuh (Gimana kabarnya baik),Damang (baik)
+Arek kamana iye atuh (ini mau kemana),Arek ka warung meli kopi (mau ke warung beli kopi)
+Sama atuh urang geh arek ka warung (sama saya juga mau ke warung),Hayu atuh bareng wae (yaudah ayo bareng aja)
+"“Dudang, kumaha pendapat manéh ngeunaan kaayaan sakola urang ayeuna?” (Dudang, bagaimana pendapatmu tentang keadaan sekolah kita sekarang?)","“Saé pisan, Sep. Sakola urang ayeuna geus leuwih bersih jeung séhat. Ruang kelasna geus dicét, halamanna geus dibersihan, tuluy aya tempat sampah di unggal sudut.” (Sangat bagus, Sep. Sekolah kita sekarang sudah lebih bersih dan sehat. Ruang kelasnya sudah dicat, halamannya sudah dibersihkan, terus ada tempat sampah di setiap sudut)"
+"“Muhun, bener pisan. Ku kituna, urang kudu ngajaga bareng kaayaan sakola ieu supaya tetep bersih jeung nyaman.” (Betul sekali. Maka dari itu, kita harus menjaga bersama keadaan sekolah ini supaya tetap bersih dan nyaman)"," “Tangtu. Urang ulah nyampah sembarangan, terus kudu rajin ngabersihan kelas sareng lingkungan sakola.” (Tentu. Kita jangan buang sampah sembarangan, terus harus rajin membersihkan kelas dan lingkungan sekolah)"
+“Hayu urang ajak babaturan sejenna ogé supaya sadar kana pentingna ngajaga kebersihan lingkungan sakola.” (Ayo kita ajak teman-teman yang lain juga supaya sadar akan pentingnya menjaga kebersihan lingkungan sekolah),"“Idena saé pisan, Sep. Urang bisa ngadamel poster atawa pamflet ngeunaan kebersihan.” (Ide yang sangat bagus, Sep. Kita bisa membuat poster atau pamflet tentang kebersihan)"
