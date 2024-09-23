@@ -23,7 +23,7 @@ embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_a
 
 def create_vectordb():
     # Load data from CSV file
-    loader = CSVLoader(file_path='FAQ_Akses_wirausaha_garuda_mandiri.csv', encoding='cp1252', source_column='prompt')
+    loader = CSVLoader(file_path='FAQ_Basa_Sunda.csv', encoding='cp1252', source_column='prompt')
     documents = loader.load()
     vectordb = Chroma.from_documents(documents,
                                      embedding=embeddings,
