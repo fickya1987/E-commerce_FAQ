@@ -17,10 +17,10 @@ st.markdown("""
 st.markdown("""
 Made by [Ficky Alkarim - Gaman](https://github.com/fickya1987)\n
 """, unsafe_allow_html=True)
-st.title("Garuda Mandiri Akses Pasar Bisnis UMKM")
+st.title("Lestari Bahasa Kita")
 
 st.markdown("""
-Bagi para pelaku UMKM, Kami menyediakan fitur Tanya Jawab AI untuk memudahkan Anda dalam mencari data pasar atau market sesuai dengan sektor usaha Anda.
+Bagi para pecinta bahasa daerah di seluruh indonesia, Kami menyediakan fitur Tanya Jawab AI untuk memudahkan Anda dalam belajar bahasa daerah.
 Anda dapat melihat panduannya pada [Panduan Tanya Jawab GAMAN AI](https://github.com/fickya1987/E-commerce_FAQ/blob/main/Ecommerce_FAQs.csv)
 dan Anda dapat juga bertanya dengan pertanyaan lain yang sesuai dengan template yang diberikan tersebut.\n
 ***"Silahkan Bertanya!"*** , etc.
@@ -31,5 +31,5 @@ query = st.text_input("Pertanyaan: ")
 if query:
     response = get_response(query)
 
-    st.header("Garuda Mandiri menjawab: ")
+    st.header(" Lestari Bahasa menjawab: ")
     st.write(response)
